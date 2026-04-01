@@ -1,0 +1,98 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+button{
+    width: 170px;
+}
+
+.nav {
+    border: 2px solid rgb(255, 255, 255);
+    height: 110px;
+    border: none;
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-financas {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.criar-deletar {
+    display: flex;
+    margin-right: -28px;
+    gap: 30px;
+}
+
+.btn-retornar{
+    transition: all 0.3s ease;
+    margin-left: 780px;
+}
+
+.btn-retornar:hover{
+    transform: translateY(-3px);
+}
+
+.btn-criar{
+    transition: all 0.3s ease;
+}
+
+.btn-criar:hover{
+    transform: translateY(-3px);
+}
+
+.btn-deletar{
+    transition: all 0.3s ease;
+}
+
+.btn-deletar:hover{
+    transform: translateY(-3px);
+} 
+
+.registros {
+    margin-top: 22px;
+    padding: 0 20px;
+}
+
+.select_data_categoria {
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: flex-end; 
+    gap: 15px; 
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.opcoes_de_busca, 
+input[name="busca"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 45px;
+    outline: none;
+}
+
+input[name="busca"] {
+    width: 300px;
+}
+
+.btn {
+    height: 45px;
+    padding: 0 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.escolher_filtro_busca{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}

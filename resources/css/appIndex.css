@@ -1,0 +1,195 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+button{
+    width: 170px;
+}
+
+.nav {
+    border: 2px solid rgb(255, 255, 255);
+    height: 110px;
+    border: none;
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-financas {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-meu-dinheiro {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 69px;
+}
+
+.corpo{
+    margin: 50px;
+}
+
+.corpo-divs-status{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+
+.div-receita {
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.1);
+    height: 130px;
+    width: 30%;
+    border-radius: 10px;
+    border-top: 4px solid #22c55e;
+    border-radius: 12;
+    padding: 20px;
+}
+
+.titulo-div-receita{
+    font-size: 16px;
+    margin: 20px;
+}
+
+.div-despesa {
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.1);
+    height: 130px;
+    width: 30%;
+    border-radius: 10px;
+    border-top: 4px solid #c52222;
+    border-radius: 12;
+    padding: 20px;
+}
+
+.titulo-div-despesa{
+    font-size: 16px;
+    margin: 20px;
+}
+
+.div-saldo {
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.1);
+    height: 130px;
+    width: 30%;
+    border-radius: 10px;
+    border-top: 4px solid #2263c5;
+    border-radius: 12;
+    padding: 20px;
+}
+
+.titulo-div-saldo{
+    font-size: 16px;
+    margin: 20px;
+}
+
+.div-conteudo-receita {
+    transition: all 0.3s ease;
+    margin-left: 20px;
+}
+
+.div-conteudo-receita:hover{
+    transform: translateY(-3px);
+}
+
+.conteudo-receita {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    color: #22c55e;
+}
+
+.div-conteudo-despesa {
+    transition: all 0.3s ease;
+    margin-left: 20px;
+}
+
+.div-conteudo-despesa:hover{
+    transform: translateY(-3px);
+}
+
+.div-conteudo-despesa {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    color: #c52222;
+}  
+
+.div-conteudo-saldo {
+    transition: all 0.3s ease;
+    margin-left: 20px;
+}
+
+.div-conteudo-saldo:hover{
+    transform: translateY(-3px);
+}
+
+.div-conteudo-saldo {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    color: #2263c5;
+}
+
+.titulo-ultimas-transacoes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.body-registros {
+    margin-top: 70px;
+}
+
+.titulo-ultimas-transacoes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 69px;
+}
+
+.criar-deletar {
+    display: flex;
+    margin-right: -28px;
+    gap: 30px;
+}
+
+.corpo-div-registros {
+    margin-top: 70px;
+}
+
+.registros {
+    margin-top: 22px;
+    padding: 0 20px;
+}
+
+.btn-buscar{
+    transition: all 0.3s ease;
+    margin-left: 780px;
+}
+
+.btn-buscar:hover{
+    transform: translateY(-3px);
+}
+
+.btn-criar{
+    transition: all 0.3s ease;
+}
+
+.btn-criar:hover{
+    transform: translateY(-3px);
+}
+
+.btn-deletar{
+    transition: all 0.3s ease;
+}
+
+.btn-deletar:hover{
+    transform: translateY(-3px);
+}
+
+.transacoes-buscar{
+    display: flex;
+}
+
+.register-receita{
+    color: #22c55e;
+}
