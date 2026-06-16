@@ -57,3 +57,33 @@ Antes de começar, você vai precisar ter instalado em sua máquina o **PHP**, o
 1. Clone este repositório:
    ```bash
    git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
+   Acesse a pasta do projeto:
+
+Bash
+cd NOME_DO_REPOSITORIO
+Instale as dependências do Laravel:
+
+Bash
+composer install
+Crie o seu arquivo de configuração .env a partir do exemplo:
+
+Bash
+cp .env.example .env
+(Configure as credenciais do seu banco de dados dentro do arquivo .env se necessário)
+
+Gere a chave da aplicação Laravel:
+
+Bash
+php artisan key:generate
+Execute as migrações para criar as tabelas no banco de dados:
+
+Bash
+php artisan migrate
+Inicie o servidor embutido do PHP:
+
+Bash
+php artisan serve
+Abra o seu navegador e acesse: http://127.0.0.1:8000
+
+👨‍💻 Autor
+Desenvolvido por Miguel Caetano Estudante de Análise e Desenvolvimento de Sistemas (ADS) no SENAI.
